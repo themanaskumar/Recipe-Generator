@@ -9,7 +9,7 @@ const Home2 = () => {
 
   // Function to fetch recipe details
   const handleViewRecipe = async (recipeName) => {
-    const API_KEY = "4cffb5ccab644710b2215a28e74fbd1b";
+    const API_KEY = "process.env.REACT_APP_API_KEY";
     const url = `https://api.spoonacular.com/recipes/complexSearch?query=${recipeName}&number=1&apiKey=${API_KEY}`;
 
     try {

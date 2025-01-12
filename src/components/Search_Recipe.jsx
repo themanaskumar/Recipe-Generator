@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "../components/Card"; // Import the Card component
 import "./Search-Recipe.css";
 
-const API_KEY = "4cffb5ccab644710b2215a28e74fbd1b";
+const API_KEY = "process.env.REACT_APP_API_KEY";
 
 const Search_Recipe = () => {
   const [dishName, setDishName] = useState("");

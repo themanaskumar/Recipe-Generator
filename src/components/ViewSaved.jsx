@@ -7,7 +7,7 @@ const ViewSaved = () => {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_KEY = "4cffb5ccab644710b2215a28e74fbd1b"; // Add your API key
+  const API_KEY = "process.env.REACT_APP_API_KEY"; // Add your API key
 
   // Fetch saved recipes from backend
   useEffect(() => {

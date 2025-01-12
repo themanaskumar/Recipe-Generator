@@ -9,7 +9,7 @@ const GeneratePage = () => {
   const [selectedRecipe, setSelectedRecipe] = useState(null); // To store the full recipe details
   const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem("token") ? true : false); // Check if user is logged in
 
-  const API_KEY = "4cffb5ccab644710b2215a28e74fbd1b";
+  const API_KEY = "process.env.REACT_APP_API_KEY";
 
   // Handler to generate recipes
   const handleGenerateRecipe = async () => {
