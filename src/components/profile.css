@@ -1,0 +1,46 @@
+.profilepage main{
+    height: 75vh;
+}
+.profileDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 80vw;
+    border: 2px solid orangered;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 90px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 4px rgba(160, 160, 160, 0.652);
+}
+.profileImage img{
+    width: 100px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 30px auto;
+    gap: 8px;
+}
+
+.menu .option{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu .option:hover{
+    transform: translate(2px);
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}

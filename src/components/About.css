@@ -1,0 +1,58 @@
+.aboutpage main{
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    background-color: #fff;
+}
+.about-intro h1{
+    font-size: xx-large;
+}
+
+.aboutpage section{
+    margin: 15px;
+    padding: 0px;
+}
+.features ul, .how-it-works ol{
+    padding-left: 25px;
+}
+.aboutpage ul li, .aboutpage ol li{
+    margin-bottom: 10px;
+}
+.aboutpage h1, .aboutpage h2{
+    margin-bottom: 10px;
+}
+
+.creators{
+    display:flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid orangered;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.creator:hover{
+    transform: translate(2px);
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.creator img{
+    width: 70px;
+    border-radius: 50%;
+}
+.call-to-action{
+    text-align: center;
+}

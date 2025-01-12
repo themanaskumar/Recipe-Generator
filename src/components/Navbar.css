@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orangered;
+    padding: 10px 30px;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 96.3vw;
+    z-index: 1;
+}
+.navButtons{
+    display: flex;
+    gap: 20px;
+}
+.navButtons button a{
+    text-decoration: none;
+    color: white;
+}
+.navButtons button{
+    border: none;
+    padding: 5px 9px;
+    background-color: #000080;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

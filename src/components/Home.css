@@ -1,0 +1,91 @@
+.homePage main{
+    margin-top: 10vh;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70vw;
+    height: 200px;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.652);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/welcomeBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.welcome .heading, .reviewSection h2{
+    background-color: orangered;
+    padding: 5px 0;
+    color: white;
+}
+
+.welcome p {
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: 30px auto;
+    gap: 30px;
+}
+
+.internalContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 35px;
+    background-color: white;
+    height: 100px;
+}
+.internalContainer:hover{
+    transform: translate(2px);
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.internalContainer button, .reviewSection button {
+    width: 90px;
+    padding: 8px;
+    border: none;
+    background-color: #000080;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.reviewSection{
+    background-color: white;
+    max-width: 70vw;
+    margin: auto;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.reviewItem{
+    display: flex;
+    margin: 10px 10px 10px 50px;
+    gap: 10px;
+}
+
+.reviewSection form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviewSection input, .reviewSection textarea{
+    margin-top: 15px;
+    width: 500px;
+    outline: none;
+    padding: 5px;
+}
+.reviewSection button{
+    margin: 10px;
+}

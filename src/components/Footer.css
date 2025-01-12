@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    align-items: center;
+    padding: 15px 0px;
+    color: white;
+}
+.small{
+    font-size: small;
+    margin-bottom: 10px;
+}
+.about:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.socialList ul{
+    list-style-type: none;
+    display: flex;
+    width: 70px;
+    margin: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.contactOptions ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 200px;
+    font-size: small;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.socialList ul li img{
+    width: 20px;
+    cursor: pointer;
+}

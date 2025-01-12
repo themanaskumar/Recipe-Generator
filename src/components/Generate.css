@@ -1,0 +1,98 @@
+.recipe-page{
+    min-height: 75vh;
+}
+.generate-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+    max-width: 80vw;
+    justify-self: center;
+    text-align: center;
+}
+.generate-container .header{
+    width: 80vw;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.form{
+    width: 80vw;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+    border: 1px solid orangered;
+    margin: 10px 0;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form div{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.form textarea{
+    width: 35vw;
+    height: 50px;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px dashed orangered;
+}
+.recipe-page button{
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.recipe-section{
+    background-color: white;
+    width: 80vw;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+    border: 1px solid orangered;
+}
+.recipe-section h2{
+    margin: 10px;
+}
+.recipe-cards{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin: 10px;
+}
+.full-recipe{
+    background-color: white;
+    width: 80vw;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+    border: 1px solid orangered;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+}
+.full-recipe img{
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.final-recipe{
+    text-align: left;
+    margin: 20px;
+    font-size: large;
+}
+.final-recipe ol, .final-recipe ul{
+    margin-left: 40px;
+}

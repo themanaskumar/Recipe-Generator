@@ -1,0 +1,58 @@
+.viewSavedPage{
+    margin-top: 50px;
+    padding: 20px;
+    min-height: 73.7vh;
+    text-align: center;
+}
+.viewSavedPage .header{
+    width: 80vw;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+    margin: auto;
+    text-align: center;
+}
+.recipeList{
+    margin-top: 20px;
+}
+.recipeList li{
+    width: 77vw;
+    background-color: white;
+    margin: 10px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid orangered;
+}
+
+.recipeList li button, .buttons button{
+    background-color: #000080;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    margin: 0 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttons button{
+    margin-top: 10px;
+}
+.recipeList li:hover{
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.detailedRecipe{
+    margin: 20px auto;
+}
+.fullRecipe{
+    text-align: left;
+    margin: 20px;
+    font-size: large;
+}
+.fullRecipe ol, .fullRecipe ul{
+    margin: 10px 0 0 40px;
+}

@@ -1,0 +1,100 @@
+.search-page {
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.searchContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+    max-width: 80vw;
+    justify-self: center;
+    text-align: center;
+}
+
+.searchContainer .header {
+    width: 80vw;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+}
+
+.searchInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
+    outline: none;
+}
+
+.searchButton, .backButton, .saveButton {
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loadingText {
+    font-size: 1rem;
+    color: #007bff;
+}
+
+.errorText {
+    font-size: 1rem;
+    color: red;
+}
+.recipesGrid{
+    display: flex;
+    width: 78vw;
+    background-color: white;
+    align-items: top;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.detailedRecipe{
+    display: flex;
+    flex-direction: column;
+    width: 78vw;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+
+.detailedRecipe img{
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.697);
+}
+.fullRecipe{
+    text-align: left;
+    font-size: 10px;
+}
+
+.fullRecipe ol, .fullRecipe ul{
+    margin: 10px 0 0 40px;
+}
