@@ -145,6 +145,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any queries, feel free to contact:
 
-- **Email:** [[your-email@example.com](mailto\:your-email@example.com)]
-- **GitHub:** [your-github-profile-link]
+- **Email:** [[themanaskumar1@gmail.com](mailto\:themanaskumar1@gmail.com)]
+- **GitHub:** [[themanaskumar](https://github.com/themanaskumar)]
 
